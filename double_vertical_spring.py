@@ -141,5 +141,5 @@ def run(frame):
 
 ani=animation.FuncAnimation(fig,run,frames=nframes)
 writervideo = animation.FFMpegWriter(fps=nfps)
-ani.save('vertical_spring.mp4', writer=writervideo)
+ani.save('double_vertical_spring.mp4', writer=writervideo)
 plt.show()
